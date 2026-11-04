@@ -1,0 +1,11 @@
+# Local MQTT broker and Node-RED, on this computer only.
+services:
+  mosquitto:
+    image: eclipse-mosquitto:2
+    command: mosquitto -c /mosquitto-no-auth.conf
+    ports:
+      - "127.0.0.1:1883:1883"
+  node-red:
+    image: nodered/node-red:4.0
+    ports:
+      - "127.0.0.1:1880:1880"
