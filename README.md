@@ -1,5 +1,8 @@
 # Capstone: a classroom weather station
 
+
+> **Darsi briefs are short on purpose.** The in-app lesson shows tight numbered clicks. This README keeps the full commands, error fixes, and background for each milestone — open the matching **Milestone N** section when you need detail.
+
 Build a classroom weather and air station: ESP32 with MicroPython or the free Wokwi simulator first, MQTT, Node-RED or Grafana graphs, comparison with Open-Meteo, and a heat alert with SAFETY.md — USB power only.
 
 [العربية](README.ar.md)
