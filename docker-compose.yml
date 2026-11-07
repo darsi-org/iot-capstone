@@ -1,10 +1,7 @@
-# Local MQTT broker and Node-RED, on this computer only.
+# Node-RED for milestone 3, on this computer only.
+# No local MQTT broker: a board in Wokwi or on Wi-Fi can't reach this computer's localhost,
+# so the board, tools/listen.py and Node-RED all use the public test broker test.mosquitto.org, port 1883.
 services:
-  mosquitto:
-    image: eclipse-mosquitto:2
-    command: mosquitto -c /mosquitto-no-auth.conf
-    ports:
-      - "127.0.0.1:1883:1883"
   node-red:
     image: nodered/node-red:4.0
     ports:

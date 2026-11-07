@@ -103,8 +103,8 @@ SPEC = json.loads(r'''{
   },
   {
    "id": "m5",
-   "en": "Milestone 5: Alerts, a case and v1.0",
-   "ar": "المرحلة ٥: تنبيهات وعلبة وv1.0",
+   "en": "Milestone 5: A safe heat alert and v1.0",
+   "ar": "المرحلة ٥: تنبيه حرارة آمن وv1.0",
    "checks": [
     {
      "type": "file",
